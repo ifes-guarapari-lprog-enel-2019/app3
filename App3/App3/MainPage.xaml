@@ -6,23 +6,9 @@
 
     <StackLayout>
 
-        <Picker x:Name="Picker1" Title="Professor">
-            <Picker.Items>
-                <x:String>1 - Maria</x:String>
-                <x:String>2 - José</x:String>
-                <x:String>3 - João</x:String>
-                <x:String>4 - Ana</x:String>
-            </Picker.Items>
-        </Picker>
+        <Picker x:Name="Picker1" Title="Professor"></Picker>
 
-        <Picker x:Name="Picker2" Title="Disciplina">
-            <Picker.Items>
-                <x:String>1 - Cálculo 1</x:String>
-                <x:String>2 - Introdução a Engenharia</x:String>
-                <x:String>3 - Cálculo 2</x:String>
-                <x:String>4 - Projetos de Engenharia</x:String>
-            </Picker.Items>
-        </Picker>
+        <Picker x:Name="Picker2" Title="Disciplina"></Picker>
 
         <Entry x:Name="Entry1" Placeholder="Matrícula do aluno" />
 
